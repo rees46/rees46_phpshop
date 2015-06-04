@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+	<version>2.3</version>
+	<name>Персонализация REES46</name>
+	<description>Персонализация витрины интернет-магазина и триггерные/дайджестные рассылки для повышения конверсии и среднего чека</description>
+	<base>1</base>
+	<icon>icon.gif</icon>
+	<adminmenu>
+		<title>REES46</title>
+		<podmenu>
+			<podmenu_name>Настройка REES46</podmenu_name>
+			<podmenu_icon>icon.gif</podmenu_icon>
+			<podmenu_action>javascript:miniWin('../modules/rees46/admpanel/adm_module.php',510,450);</podmenu_action>
+		</podmenu>
+		<podmenu>
+			<podmenu_name>Переход к статистике</podmenu_name>
+			<podmenu_icon>stats.gif</podmenu_icon>
+			<podmenu_action>javascript:window.location.replace('?plugin=rees46')</podmenu_action>
+		</podmenu>
+		<!--<podmenu>-->
+			<!--<podmenu_name>Управление рассылками</podmenu_name>-->
+			<!--<podmenu_icon>icon.gif</podmenu_icon>-->
+			<!--<podmenu_action>javascript:window.location.replace('?plugin=rees46')</podmenu_action>-->
+		<!--</podmenu>-->
+		<menu>
+			<menu_name>Персонализация</menu_name>
+			<menu_icon>icon.gif</menu_icon>
+			<menu_action>window.location.replace('?plugin=rees46')</menu_action>
+		</menu>
+	</adminmenu>
+</module>
